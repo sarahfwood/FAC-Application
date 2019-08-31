@@ -11,6 +11,12 @@ h1 {
   font-size:50px;
   font-family: 'Rock Salt', cursive;
 }
+
+h2 {
+  font-size:25px;
+  font-family: 'Rock Salt', cursive;
+}
+
 #main {
   padding: 15px;
   display: block;
@@ -32,6 +38,7 @@ h1 {
 .social-media-icons {
 height: 40px;
 width: 40px;
+padding: 5px;
 }
 
 section h2 {
