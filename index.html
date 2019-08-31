@@ -104,7 +104,7 @@
     <section id="section-4">
       <h2>My Final Thoughts</h2>
       <p>
-        Why would I make a good enginner? I'm passionate, determined and empathetic. I think my empathy is what have
+        Why would I make a good engineer? I'm passionate, determined and empathetic. I think my empathy is what have
         driven me in the past. I never like
         to see anyone struggle. I was always looking for better ways to do things, to make mine and other lives easier.
         I strived on improving efficiency and/or making it a more sustainable process.
@@ -133,11 +133,32 @@
     <section id="section-5">
       <h2>Links to Support my Application</h2>
       <p>
-        <ul>
-          <li><a id="tribute-link" href="https://www.freecodecamp.org/sarahfwood" target="blank">Free Code Camp</a>
-          </li>
-          <li><a id="tribute-link" href="https://www.codewars.com/users/sarahfwood" target="blank">Code Wars</a></li>
-        </ul>
+        <p>Click the button to display links as a hyperlink.</p>
+
+        <button onclick="buttonOne()">Free Code Camp</button>
+
+        <p id="fcc"></p>
+
+        <script>
+          function buttonOne() {
+            var str = "Free Code Camp";
+            var result = str.link("https://www.freecodecamp.org/sarahfwood");
+            document.getElementById("fcc").innerHTML = result;
+          }
+        </script>
+
+        <button onclick="buttonTwo()">Codewars</button>
+
+        <p id="cw"></p>
+
+        <script>
+          function buttonTwo() {
+            var str = "Codewars";
+            var result = str.link("https://www.codewars.com/users/sarahfwood);
+            document.getElementById("cw").innerHTML = result;
+          }
+        </script>
+
       </p>
     </section>
     <footer>
